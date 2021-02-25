@@ -44,7 +44,7 @@
 }
 /* introdction */
 #introdction {
-  height: 700px;
+  /* height: 700px;  */
   background: url(../image/introduction_bg.jpg) no-repeat;
   background-position: center center;
   background-size: cover;
@@ -60,6 +60,19 @@
   margin-bottom: 30px;
   border-radius: 5px;
 }
+#introdction .introduce:nth-child(2) {
+  transform: translateX(-1200px);
+  animation: introduce 1.5s ease-in forwards;
+}
+#introdction .introduce:nth-child(3) {
+  transform: translateX(1200px);
+  animation: introduce 1.5s ease-in forwards;
+}
+#introdction .introduce:nth-child(4) {
+  transform: translateX(-1200px);
+  animation: introduce 1.5s ease-in forwards;
+}
+
 #introdction .introduce:hover {
   box-shadow: 4px 4px 3px 3px rgba(220, 221, 137, 0.7);
 }
@@ -94,4 +107,3 @@
 #home-info .info-content p {
   padding-bottom: 30px;
 }
-

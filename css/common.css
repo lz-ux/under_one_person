@@ -107,3 +107,10 @@ p {
   font-size: 40px;
   padding-top: 20px;
 }
+
+/* keyframes */
+@keyframes introduce {
+  to {
+    transform: translateX(0);
+  }
+}
